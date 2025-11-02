@@ -1,0 +1,68 @@
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Oct/2025:11:15:53 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Oct/2025:11:22:25 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Oct/2025:11:26:04 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Oct/2025:11:33:50 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Oct/2025:11:34:06 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Oct/2025:11:34:40 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Oct/2025:11:35:26 +0000] \"GET /api HTTP/1.1\" 200 78 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Oct/2025:11:35:31 +0000] \"GET /metrics HTTP/1.1\" 200 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:09:28:15 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:09:29:06 +0000] \"POST /sign-up HTTP/1.1\" 404 147 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:09:29:17 +0000] \"POST /sign-up HTTP/1.1\" 404 147 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: oghaleinnocent93@gmail.com","service":"acquisitions-api"}
+{"level":"error","message":"Signup error, e","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:09:31:50 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1179 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: oghaleinnocent93@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:09:32:41 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 135 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: TypeError: Cannot convert undefined or null to object","service":"acquisitions-api"}
+{"level":"error","message":"Signup error, e","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:09:57:57 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1030 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: TypeError: Cannot convert undefined or null to object","service":"acquisitions-api"}
+{"level":"error","message":"Signup error, e","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:10:01:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1030 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: innocentimitini@gmail.com,1","service":"acquisitions-api"}
+{"level":"error","message":"Signup error, e","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:10:13:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1053 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: innocentimitini@gmail.com,1","service":"acquisitions-api"}
+{"level":"error","message":"Signup error, e","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:10:16:46 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1053 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: innocentimitini@gmail.com,1","service":"acquisitions-api"}
+{"level":"error","message":"Signup error, e","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:10:17:53 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1053 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User innocentimitini@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: innocentimitini@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:10:23:43 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 135 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User innocentimitinioghale@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: innocentimitinioghale@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [25/Oct/2025:10:36:21 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 146 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [31/Oct/2025:12:24:41 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [31/Oct/2025:12:24:42 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Nov/2025:12:30:10 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Nov/2025:12:30:11 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:18 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:23 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:23 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:23 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:24 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:24 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:24 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:24 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:24 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:25 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:25 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:25 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:25 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Nov/2025:14:13:25 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
